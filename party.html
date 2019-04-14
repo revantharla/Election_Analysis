@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="images/fav.png"/>
+<title>Election Analysis</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Carousel Links Start -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript" src="javascript/party.js"></script>
+
+<!-- Carousel Links End -->
+
+</head>
+<body src="images/bgimage.jpg">
+
+
+<div id="header">
+	<div id="logo">
+    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    
+	<a href="index.html"><h1>Election Analysis</h1></a>
+	</div>
+</div>
+<div class="clear"></div>
+
+<div id="bg">
+
+
+<div id="scroll">
+<marquee behavior="scroll" color="blue" font-size="50px" direction="left">The Schedule for General Elections to Lok Sabha and Legislative Assemblies in Andhra Pradesh, Arunachal Pradesh, Odisha &amp; Sikkim, 2019 has been announced. Poll will be held in 7 Phases from 11th April 2019 till 19th May 2019. Counting of votes will be held on 23rd May 2019.</marquee>
+</div>
+<center>
+<div id="state">
+<b>Please Select  State</b>
+        &nbsp;
+		<br><br>
+        <select name="dropdown" style="width: 250px; height: 30px; color:orange; font-weight:bold; background:yellow;"      id="state1" onchange="update()">        </select>
+           <br>
+           <br>
+        
+           <div id="myDiv" style="width:1100px;height:600px;"></div>
+
+</div>
+</center>
+
+<div class="clear"></div>
+
+<div id="footer">
+	<center><p>&copy Election Survey.in</p></center>
+</div>
+
+</div>
+
+</body>
+</html>
